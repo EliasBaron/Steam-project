@@ -1,19 +1,7 @@
-# Enunciado
+# Steam-elias
 
-https://github.com/unq-ui/material/tree/master/TPs/2023s2
+# Overview
+This project is a multi-platform application with a Javalin API, a React web version, and a mobile version built with Expo. It offers a consistent user experience across different devices.
 
-# Modelo
-
-https://github.com/unq-ui/steam-model
-
-## Tener en cuenta
-
-Los siguientes archivos y/o carpetas no se suben al repo
-
-* Los archivos .iml 
-* /target
-* /.idea
-* /node_modules
-* .log
-
-Dentro de las carpetas que nosotros subimos tienen que estar su proyecto directamente, eso significa que por ejemplo dentro de la carpeta de arena espero ver el `pom.xml` y la carpeta `src`
+# Educational Purposes
+This project is developed for educational purposes. It serves as a practical demonstration of integrating Javalin, React, and Expo for a multi-platform application. Contributions and feedback are welcome, especially from those interested in learning and collaborating on similar projects.
