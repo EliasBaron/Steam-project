@@ -1,0 +1,28 @@
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.user-info img {
+    border: 2px solid white;
+    border-radius: 100%;
+    margin: 1em;
+    height: 5em;
+    max-width: 5em;
+    object-fit: cover;
+}
+
+.games-wrapper {
+    padding-bottom: 5em;
+}
+
+.games-title {
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}

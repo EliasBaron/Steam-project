@@ -1,0 +1,95 @@
+.navbar-steam {
+    background-color: #04060e;
+    color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+}
+
+.navbar-menu a{
+    cursor: pointer;
+}
+
+.navbar-menu a:hover{
+  color: #88d1fb;
+  text-decoration: #88d1fb underline 0.1em;
+}
+
+.navbar-menu .nav-link.active {
+  color: #88d1fb;
+  text-decoration: #88d1fb underline 0.1em;
+}
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .search-bar input:focus {
+    outline: none;
+    border-bottom: 2px solid #88d1fb;;
+  }
+  
+  .user-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .user-menu i {
+    font-size: 24px;
+  }
+
+  .logo span:hover {
+    text-decoration: none;
+  }
+
+  .user-menu span:hover{
+    color: #88d1fb;
+    text-decoration: #88d1fb underline 0.1em;
+  }
+
+  .user-menu a:hover{
+    color: #88d1fb;
+    text-decoration: #88d1fb underline 0.1em;
+  }

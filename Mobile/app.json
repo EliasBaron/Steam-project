@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "steam-app",
+    "slug": "steam-app",
+    "splash": {
+      "image": "./assets/splashimg.png",
+      "backgroundColor": "#202742"
+    }
+  }
+
+  
+}

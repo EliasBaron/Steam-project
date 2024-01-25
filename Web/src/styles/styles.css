@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('../assets/font/Gilroy-Bold.woff') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #202742;
+    font-family: 'Gilroy-Bold';
+}
+
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 3em;
+    position: relative;
+    background-color: #202742;
+  }
+
+  .main-container {
+    width: 80%;
+    /* height: 100%; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 1em; 
+    gap: 5em;
+    color: white;
+    max-width: 1200px;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-img{
+    display: block;
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .tag-slide-image{
+    display: block;
+    width: 95%;
+    height: 80%;
+    object-fit: cover;
+    margin: auto; 
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .swiper-slide img:hover{
+    opacity: 0.5;
+  }
+
+  .swiper-slide :active{
+    opacity: 0.1;
+
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 30em;
+    margin: 0.5 auto;
+  }
+
+  .feature-title {
+    font-size: 1.5em;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 0.2em;
+    text-align: left, end;
+    align-self: flex-start;
+  }
+
+  .tag-texto {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4em;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .tag-image {
+    opacity: 70%;
+  }
+
+  .img-fill {
+    object-fit: fill !important;
+  }
+
+  .games-container {
+    width: 100%;
+    marging: 0.5 auto;
+  }
+  
+  .games-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 20px;
+  }
+  
+  .game-card {
+    width: 100%;
+    background-color: #142155;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 8em;
+    cursor: pointer;
+  }
+  
+  .game-card:hover,
+  .game-card:hover .game-card-info { 
+    background-color: #1c2d72;
+  }
+  
+  .game-card img {
+    min-width: 25%;
+    width: 20%;
+    object-fit: cover;
+    position: relative;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  .game-card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: #142155;
+    padding: 20px;
+    color: white;
+    display: flex;
+    max-width: 100%;
+  }
+  
+
+  .game-text-container {
+    max-width: 80%;
+  }
+  
+  .game-card-title {
+    font-size: 1.5em;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .game-card-price {
+    font-size: 1.8em;
+    margin-top: 10px;
+    margin-left: auto;
+    display: flex; 
+    align-items: center; 
+    vertical-align: middle;
+    width: 3em;
+  }
+  
+  .game-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    max-width: 80%;
+    text-decoration: underline;
+  }
+
+  .game-card-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    max-width: 80%;
+  }
+  
+  .game-card-tag {
+    padding: 0.2em 0.1em; 
+    margin-right: 5px;
+    font-size: 14px; 
+  }
+
+  .game-card-tag:hover{
+    background-color: #1e3a6f;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .pagination-container {
+    margin: 0 auto;
+    text-align: end;
+  }
+
+  .pagination-button {
+    background: none;
+    font-size: larger;
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 0;
+  }
+
+  .pagination-button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  } 
+
+  .pagination-button:active{
+    opacity: 0.5;
+  }
+
+  .pagination-button:disabled {
+    opacity: 0.5;
+    box-shadow: none;
+    text-decoration: none;
+  }
+    
+  .img-error-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img-error-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .tag-container {
+    width: 29%;
+    height: 25em;
+    max-width: 20em;
+    margin: 1em;
+    position: relative;
+  }
+
+  .tag-container:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .tag-container img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 80%;
+  }
+
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .title-icon-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .user-review-container {
+    width: 100%;
+  }
+  
+  .title-icon-container img {
+    width: 2em;
+    height: 2em;
+    object-fit: contain;
+  }
+  
+  .title-icon-container h3 {
+    flex: 1;
+  }
+
+  .user-info img {
+    border: 2px solid white;
+    border-radius: 100%;
+    margin: 1em;
+    max-width: 5em;
+    max-height: 5em;
+    object-fit: cover;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
+} 
+
+.user-name {
+  color: white;
+  font-size: 0.9em;
+}
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .swiper-button-prev {
+    color: white;
+    background-color: rgba(62, 70, 92, 0.6);
+    padding: 5em 3em;
+    box-sizing: border-box;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .swiper-button-next {
+    color: white;
+    background-color: rgba(62, 70, 92, 0.6);
+    padding: 5em 3em;
+    box-sizing: border-box;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .user-button button{
+      padding: 0.5em 4em;
+      font-size: 24px;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+      align-self: flex-end;
+      width: 350px;
+  }
+
+  .add-friend-button{
+    background: #2980B9;  
+    background: -webkit-linear-gradient(to right, #6DD5FA, #2980B9);  
+    background: linear-gradient(to right, #6DD5FA, #2980B9); 
+  }
+
+  .delete-friend-button{
+    background: #a80303;  
+    background: -webkit-linear-gradient(to right, #a80303, #e13434);  
+    background: linear-gradient(to right, #a80303, #e13434); 
+  }
+
+
+  .user-name {
+    flex: 1;
+  }
