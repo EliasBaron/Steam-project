@@ -1,5 +1,3 @@
-# Project Name
-
 A simple web steam project where users can login, register, buy games, write reviews, and search for games.
 
 ## Table of Contents
